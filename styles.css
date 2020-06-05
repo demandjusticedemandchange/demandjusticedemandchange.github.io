@@ -111,7 +111,7 @@ h1.maintitle {
 .sections {
 	vertical-align: top;
 	display: inline-block;
-	width: 49.7%;
+	width: 47.5%;
 }
 
 .section-title {
@@ -172,8 +172,14 @@ h1.maintitle {
 
 
 @media(max-width: 425px) {
-	h1.name {
+	.hero{
+		margin: 25px auto;
+	}
+	h1.maintitle {
 		font-size: 40px;
+	}
+	.subtitle{
+		font-size: 20px;
 	}
 	.sections {
 		width: 100%;
@@ -181,15 +187,12 @@ h1.maintitle {
 		margin: 10px 0;
 	}
 	.lead {
-		margin-top: 15px;
 		font-size: 20px;
 		line-height: 28px;
+		margin-top: 30px;
 	}
 	.container {
 		margin: 0px;
 		padding: 0 15px;
-	}
-	footer {
-		margin-top: 2050px;
 	}
 }
