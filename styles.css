@@ -124,19 +124,9 @@ h1.maintitle {
 	margin: 30px 0;
 }
 
-.list-card .exp , .list-card div{
+.list-card div{
 	display: inline-block;
 	vertical-align: top;
-}
-
-.list-card .exp {
-	margin-right: 15px;
-	color: #4A90E2;
-	font-weight: 600;
-	width: 100px;
-}
-
-.list-card div {
 	width: 70%;
 }
 
@@ -168,6 +158,9 @@ h1.maintitle {
 		padding: 15px;
 		margin: 0px auto;
 	}
+	.list-card div{
+		width: 80%;
+	}
 }
 
 
@@ -194,5 +187,8 @@ h1.maintitle {
 	.container {
 		margin: 0px;
 		padding: 0 15px;
+	}
+	.list-card div{
+		width: 100%;
 	}
 }
